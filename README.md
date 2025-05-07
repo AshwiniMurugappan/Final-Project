@@ -31,9 +31,52 @@ This loan default prediction model enables several key business applications for
 
 - ***Risk-Aware Loan Approvals:*** Facilitates more informed lending decisions by quantifying the risk of applicant default.
 - ***Risk-Based Customer Segmentation:*** Allows for the categorization of customers based on their default probability to tailor financial products.
-- ***Enhanced Credit Scoring Accuracy:*** Improves the precision of credit assessments by incorporating predictive analytics.
 - ***Early Fraud Indicators:*** Can help identify potentially fraudulent loan applications based on risk patterns.
 
+## 🛠️ Approach
+
+### I. Data Preprocessing 
+
+**Data Cleaning** ensures the dataset's accuracy and consistency through:
+
+- **Handling Missing Data**:
+  - Detected missing values.
+  - Replaced missing values using mean, median and mode.
+
+- **Removing Inconsistent Data**:
+  - Checked for format consistency and valid ranges.
+  - Fixed inconsistencies, such as standardizing text and correcting typos.
+ 
+### II. Exploratory Data Analysis (EDA)
+
+**Exploratory Data Analysis (EDA)** discovers patterns, relationships, and anomalies in the data.
+
+- 
+
+### Handling Outliers with Log Transformation
+
+
+
+#### i) Feature Engineering
+
+Created new variables from the raw data to improve the model’s performance, such as:
+
+
+#### ii) Model Selection
+
+Model Selection involves choosing the most suitable model for our loan data:
+
+
+
+#### iii) Model Training
+
+Model Training involves fitting the chosen model to historical loan data:
+
+- Split the data into training and test sets to evaluate model performance. 
+- Trained the model on the training set by adjusting parameters to minimize prediction errors.
+- Optimized model performance by tuning hyperparameters using techniques like cross-validation or grid search.
+
+### iv) 📊 Model Evaluation
 
 
 
