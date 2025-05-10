@@ -127,7 +127,7 @@ Our XGBoost model showed significant improvement over Logistic Regression and th
 
 ### 🧩 Model Comparison:
 
-|Model	  |Model Name	              |accuracy	    |precision	  |recall	F1    |score       |
+|Model	  |Model Name	              |accuracy	    |precision	  |recall	      |F1score       |
 |---------|-------------------------|-------------|-------------|-------------|------------|
 |Model 1	|Logistic Regression	    |58.6167109	  |58.61922198	|58.6167109	  |58.61284885 |
 |Model 2	|Decision Tree Classifier	|92.21662727	|92.24373795	|92.21662727	|92.21530872 |
